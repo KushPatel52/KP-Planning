@@ -125,7 +125,7 @@ export default function TripForm() {
                     <div className="form-group" style={{ marginBottom: '15px' }}>
                         <label style={{ display: 'block', marginBottom: '5px', color: 'DarkSeaGreen', fontFamily: 'Helvetica, Arial, sans-serif', fontWeight: 'bold', fontSize: '18px' }}>Budget</label>
                         <select
-                            name="budget"
+                            name="Disability Type"
                             value={formData.budget}
                             onChange={handleChange}
                             style={{
@@ -138,9 +138,9 @@ export default function TripForm() {
                                 color: 'DarkSeaGreen'
                             }}
                         >
-                            <option value="cheap" style={{ color: 'black' }}>Cheap</option>
-                            <option value="moderate" style={{ color: 'black' }}>Moderate</option>
-                            <option value="splurge" style={{ color: 'black' }}>Splurge</option>
+                            <option value="Mobility Impairment" style={{ color: 'black' }}>Cheap</option>
+                            <option value="Visual Impairment" style={{ color: 'black' }}>Moderate</option>
+                            <option value="Hearing Impairment" style={{ color: 'black' }}>Splurge</option>
                         </select>
                     </div>
                     <button
