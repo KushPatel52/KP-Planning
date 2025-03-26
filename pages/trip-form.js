@@ -9,7 +9,7 @@ export default function TripForm() {
         destination: '',
         startDate: '',
         endDate: '',
-        budget: 'cheap'
+        budget: 'Mobility Impairment'
     });
 
     const handleChange = (e) => {
@@ -123,7 +123,7 @@ export default function TripForm() {
                         />
                     </div>
                     <div className="form-group" style={{ marginBottom: '15px' }}>
-                        <label style={{ display: 'block', marginBottom: '5px', color: 'DarkSeaGreen', fontFamily: 'Helvetica, Arial, sans-serif', fontWeight: 'bold', fontSize: '18px' }}>Budget</label>
+                        <label style={{ display: 'block', marginBottom: '5px', color: 'DarkSeaGreen', fontFamily: 'Helvetica, Arial, sans-serif', fontWeight: 'bold', fontSize: '18px' }}>Disability Type</label>
                         <select
                             name="Disability Type"
                             value={formData.budget}
@@ -138,9 +138,9 @@ export default function TripForm() {
                                 color: 'DarkSeaGreen'
                             }}
                         >
-                            <option value="Mobility Impairment" style={{ color: 'black' }}>Cheap</option>
-                            <option value="Visual Impairment" style={{ color: 'black' }}>Moderate</option>
-                            <option value="Hearing Impairment" style={{ color: 'black' }}>Splurge</option>
+                            <option value="Mobility Impairment" style={{ color: 'black' }}>Mobility Impairment</option>
+                            <option value="Visual Impairment" style={{ color: 'black' }}>Visual Impairment</option>
+                            <option value="Hearing Impairment" style={{ color: 'black' }}>Hearing Impairment</option>
                         </select>
                     </div>
                     <button
